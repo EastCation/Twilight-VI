@@ -1,0 +1,11 @@
+import time
+print("《原神》小说")
+time.sleep(2)
+print("本作品由知识共享 署名-非商业性-相同方式共享4.0许可协议进行许可")
+time.sleep(2)
+print("出版：暮光工作室")
+time.sleep(2)
+print("技术：東暘离子、周子琳、刘逍、张家郡、铁镐上的方天一")
+time.sleep(2)
+print("推广：暮光工作室、王老师")
+time.sleep(2)
