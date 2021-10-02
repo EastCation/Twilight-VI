@@ -9,5 +9,5 @@
 [bug报告](/report.html)
 ## 软件以及其他
 [工具下载](download.html)    
-[个人博客](blog/index.html)   
+[个人博客](blogs/index.html)   
 玩Minecraft 4K  
