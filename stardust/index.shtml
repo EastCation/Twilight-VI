@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <title>stardust_vocaloid星尘_vocaloid4_福托科技</title>
+    <!--兼容性问题-->
+    <meta name="keywords" content="stardust,平行四届,星尘,Vocaloid4,洛天依,乐正绫">
+    <meta name="description" content="Vocaloid™星尘官方网站">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="/statics/starindex/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/statics/starindex/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/statics/starindex/js/wow.js"></script>
+    <link type="text/css" rel="stylesheet" href="/statics/starindex/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/statics/starindex/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="/statics/starindex/css/animate.css">
+    <link type="text/css" rel="stylesheet" href="/statics/starindex/css/index_style.css">
+    <script>
+        new WOW().init();
+        $(function(){
+            $(".item:eq(0)").addClass("active")
+
+            var itemlength=$(".item").length;
+            console.log(itemlength);
+
+            for(i=0;i<itemlength;i++){
+                ceshi= '<li data-target="#carousel-example-generic" data-slide-to="'+i+'" ></li>'
+//               alert(ceshi)
+                $(".carousel-indicators").append(ceshi);
+            }
+        })
+
+    </script>
+    <style>
+        .release_box .img-responsive{
+            height: 240px !important;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+<!--导航栏-->
+<div class="row">
+    <nav id="menu" class="navbar navbar-default">
+        <div class="navbar-header">
+            <!--星尘LOGO-->
+            <div class="logo">
+                <a href="index.html" title="回到主页"><img src="/statics/starindex/pictures/logo.png" class="img-responsive" alt="Responsive image"/>
+                </a>
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav col-md-12 menu">
+                <!--<li>
+                <form class="navbar-form navbar-left" role="search" style="padding: 10px 15px">
+
+                        <div class="form-group" style="width: ">
+                            <input type="text" class="form-control input-sm" placeholder="搜索" id="bdcsMain">
+                        </div>
+                        <button type="submit" class="btn  glyphicon glyphicon-search" style="padding: 4px !important;"></button>
+                    </form>
+                </li>-->
+                <li><a href="index.html" style="color:#fff;">首页</a>
+                    <p>Index</p>
+                    <span class="line line-bottom"></span>
+                </li>
+                <li>
+                    <a href="news.shtml">动态</a>
+                    <p>News</p>
+                    <span class="line line-bottom"></span>
+                </li>
+                <li>
+                    <a href="release.shtml">发售</a>
+                    <p>Release</p>
+                    <span class="line line-bottom"></span>
+                </li>
+                <li>
+                    <a href="video.shtml">音乐PV</a>
+                    <p>Video</p>
+                    <span class="line line-bottom"></span>
+                </li>
+                <li>
+                    <a href="Illustration.shtml">插画</a>
+                    <p>Illustration</p>
+                    <span class="line line-bottom"></span>
+                </li>
+                <li>
+                    <a href="about.html">关于星尘</a>
+                    <p>About</p>
+                    <span class="line line-bottom"></span>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--导航条结束-->
+
+<!--滚动轮播图-->
+<div id="roll_pics" class="row">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item ">
+                        <a href="index.html" title="『平行四界LIVE TOUR feat. 星尘』全息演唱会"><img src="/imgextra/i3/678151706/TB2JSRRvhRDOuFjSZFzXXcIipXa_!!678151706.jpg" class="center-block img-responsive" alt="Responsive image">
+                        </a>
+                    </div><div class="item ">
+                        <a href="news/45.shtml" title="VOCALOID星尘二设主题官方画集征集活动开始！"><img src="/imgextra/i3/678151706/TB2Q_nBuXXXXXXsXpXXXXXXXXXX_!!678151706.jpg" class="center-block img-responsive" alt="Responsive image">
+                        </a>
+                    </div>
+        </div>
+        <!--翻页控制-->
+        <a class="left carousel-control" href="index.html#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="right carousel-control" href="index.html#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
+    </div>
+
+</div>
+
+<!--release三格信息-->
+<div class="container">
+    <div data-wow-delay="0.1s" data-wow-duration="500" class="row wow fadeIn">
+        <div id="releases">
+
+            <div class="release_title">
+                <img src="/statics/starindex/pictures/star2.png" class="img-responsive star" alt="Responsive image"/><a href="release.shtml" title=""><span>发售</span><span style="font-size: 0.5em !important;"> Release</span></a>
+                <a href="index.php?a=lists&amp;catid=27" class="more" style="font-size:0.9em;float:right;padding-top:20px;" title="">MORE&gt;&gt;</a>
+                <img src="/statics/starindex/pictures/heart_line2.png" class="img-responsive heart_line" style="padding-bottom:10px;" alt="Responsive image"/>
+            </div>
+            <div class="col-md-4 release_box">
+                        <a href="release/77.shtml" title="『平行四界LIVE TOUR feat. 星尘』全息演唱会"><img src="/d/file/content/2017/07/5964af67ecb53.jpg" class="img-responsive" alt="Responsive image"/>
+                        </a>
+                        <div class="release_textTitle">
+                            <a href="release/77.shtml" title="『平行四界LIVE TOUR feat. 星尘』全息演唱会">『平行四界LIVE TOUR feat. 星尘』全息演唱会</a>
+                            <p>星尘首场全息演唱会定档 2017.12.30 上海梅赛德斯奔驰文化中心The Mixing Room</p>
+                        </div>
+                    </div><div class="col-md-4 release_box">
+                        <a href="release/83.shtml" title="小野道×TOMATO合作个人专辑/画集『蝴蝶旅客 feat. 星尘』"><img src="/d/file/content/2017/07/5964ffae18bbe.jpg" class="img-responsive" alt="Responsive image"/>
+                        </a>
+                        <div class="release_textTitle">
+                            <a href="release/83.shtml" title="小野道×TOMATO合作个人专辑/画集『蝴蝶旅客 feat. 星尘』">小野道×TOMATO合作个人专辑/画集『蝴蝶旅客 feat. 星尘』</a>
+                            <p> </p>
+                        </div>
+                    </div>            <div class="col-md-4 release_box">
+
+                <iframe width="100%" height="365" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=0&amp;height=365&amp;fansRow=2&amp;ptype=1&amp;speed=0&amp;skin=10&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=0&amp;uid=5599743152&amp;verifier=a040329e&amp;dpc=1" "></iframe>
+            </div>
+        </div>
+    </div>
+    <!--news信息-->
+    <div class="row">
+        <div id="news">
+            <div class="news_title">
+                <img src="/statics/starindex/pictures/star2.png" class="img-responsive star" alt="Responsive image"/><a href="news.shtml" title=""><span>动态</span><span style="font-size: 0.5em !important;"> News</span></a>
+                <a href="index.php?a=lists&amp;catid=26" class="more" style="font-size:0.9em;float:right;padding-top:20px;" title="">MORE&gt;&gt;</a>
+                <img src="/statics/starindex/pictures/heart_line.png" class="img-responsive heart_line" style="padding-bottom:10px;" alt="Responsive image"/>
+            </div>
+            <div class="col-md-4">
+                <div class="tv_icon">
+                		<a href="news/76.shtml"> <img src="/d/file/content/2017/07/5964af67ecb53.jpg" class="img-responsive" alt="Responsive image"/></a>	
+                	</div>
+            </div>
+            <div class="col-md-6 news_box">
+            	
+                <div data-wow-delay="0.1s" data-wow-duration="600" class="news_menu wow fadeIn">
+                            <span class="glyphicon glyphicon-star"></span>
+                           <a href="news/76.shtml" target="_blank" title="『平行四界LIVE TOUR feat. 星尘』全息演唱会">『平行四界LIVE TOUR feat. 星尘』全息演唱会</a><span class="news_time" style="float: right">2017-07-08</span>
+                        </div><div data-wow-delay="0.1s" data-wow-duration="600" class="news_menu wow fadeIn">
+                            <span class="glyphicon glyphicon-star"></span>
+                           <a href="news/84.shtml" target="_blank" title="小野道×TOMATO合作个人专辑/画集『蝴蝶旅客 feat. 星尘』">小野道×TOMATO合作个人专辑/画集『蝴蝶旅客 feat. 星尘』</a><span class="news_time" style="float: right">2017-04-22</span>
+                        </div><div data-wow-delay="0.1s" data-wow-duration="600" class="news_menu wow fadeIn">
+                            <span class="glyphicon glyphicon-star"></span>
+                           <a href="news/82.shtml" target="_blank" title="【VOCALOID™4 星尘】官方专辑『星语Star Whisper』">【VOCALOID™4 星尘】官方专辑『星语Star Whisper』</a><span class="news_time" style="float: right">2017-01-31</span>
+                        </div><div data-wow-delay="0.1s" data-wow-duration="600" class="news_menu wow fadeIn">
+                            <span class="glyphicon glyphicon-star"></span>
+                           <a href="news/72.shtml" target="_blank" title="星尘2017官方台历开始预售">星尘2017官方台历开始预售</a><span class="news_time" style="float: right">2016-09-09</span>
+                        </div>            </div>
+        </div>
+
+    </div>
+</div>
+<!--底部版权-->
+<div id="footer" class="row">
+    <p><a href="http://web.archive.org/web/20180509033820/http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备16004768号-1</a></p>
+    <p>©<a>北京福托科技开发有限责任公司</a></p>
+    <p>
+    	<a href="about.html">关于星尘</a>－<a href="contact.html">联系我们</a>－<a href="join.html">加入我们</a>
+	</p>
+</div>
+<script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://web.archive.org/web/20180509033820/http://znsv.baidu.com/customer_search/api/js?sid=16098646797305333532' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+</body>
+</html>
