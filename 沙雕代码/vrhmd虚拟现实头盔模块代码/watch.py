@@ -1,0 +1,11 @@
+import vrhmd
+myTV = vrhmd.TVSet()
+myTV.powerOn()
+myTV.shift("VR")
+myTV.channel(6)
+myTV.channelUp()
+myTV.channelUp()
+myTV.channelUp()
+myTV.channelDown()
+myTV.volumeDown()
+myTV.powerOff()
