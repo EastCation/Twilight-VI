@@ -1,0 +1,11 @@
+import tv
+myTV = tv.TVSet()
+myTV.powerOn()
+myTV.shift("TV")
+myTV.channel(6)
+myTV.channelUp()
+myTV.channelUp()
+myTV.channelUp()
+myTV.channelDown()
+myTV.volumeDown()
+myTV.powerOff()
